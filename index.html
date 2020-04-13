@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>MVA - расписание</title>
+</head>
+<body>
+    <style>
+        #alert-container {
+            padding: 12px;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            width: 80%;
+        }
+        h1,h2,h3,h4,h5,h6 {
+            color: #952020;
+        }
+        #wrapper {
+            padding: 25px;
+        }
+        .flight-box {
+            font-size: 15pt!important;
+            padding: 12px;
+            margin-left: 20px;
+        }
+        #footer {
+            padding: 12px;
+            text-align: center;
+            background-color: rgb(245, 245, 245);
+            margin: 0 auto;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
+    </style>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="logo.png" height="30" alt="">
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link disabled" href="#">Домашняя <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link disabled" href="#">Флот <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="#">Расписание</a>
+            <a class="nav-item nav-link disabled" href="#">Контакты <span class="sr-only">(current)</span></a>
+          </div>
+        </div>
+      </nav>
+      <div id="alert-container">
+        <div class="alert alert-danger" role="alert">
+            <h5>Внимание!</h5><br>Сайт находится в активной стадии разработки, многие разделы могут не работать!<br><br>С уважением,
+            <br><i>Администрация</i>
+          </div>
+      </div>
+      <div id="wrapper">
+          <h1>Расписание рейсов</h1>
+          <br>
+          <h3>Понедельник</h3>
+          <div class="flight-box">
+              <ul>
+                  <li>UUEE-URSS (A319)</li>
+                  <li>URSS-UUEE (A319)</li>
+                  <li>UWPS-URSS (B736)</li>
+                  <li>URSS-UWPS (B736)</li>
+                  <li>UUEE-ULLI (A319)</li>
+                  <li>ULLI-UUEE (A319)</li>
+                  <li>UWPS-ULLI (B736)</li>
+                  <li>ULLI-UWPS (B736)</li>
+              </ul>
+          </div>
+          <h3>Вторник</h3>
+          <div class="flight-box">
+            <ul>
+                <li>UUEE-USSS (A20N)</li>
+                <li>USSS-UUEE (A20N)</li>
+                <li>UWPS-USSS (B736)</li>
+                <li>USSS-UWPS (B736)</li>
+                <li>UWPS-UUEE (B736)</li>
+                <li>UUEE-UWPS (B736)</li>
+            </ul>
+        </div>
+          <h3>Среда</h3>
+        <div class="flight-box">
+            <ul>
+                <li>UUEE-LTAI (A20N)</li>
+                <li>LTAI-UUEE (A20N)</li>
+                <li>UWPS-LTAI (B736)</li>
+                <li>LTAI-UWPS (B736)</li>
+                <li>UUEE-ULLI (A319)</li>
+                <li>ULLI-UUEE (A319)</li>
+            </ul>
+        </div>
+          <h3>Четверг</h3>
+          <div class="flight-box">
+            <ul>
+                <li>UWPS-UUEE (B736)</li>
+                <li>UUEE-UWPS (B736)</li>
+                <li>UUEE-LUKK (A20N)</li>
+                <li>LUKK-UUEE (A20N)</li>
+
+            </ul>
+        </div>
+          <h3>Пятница</h3>
+          <div class="flight-box">
+            <ul>
+                <li>UUEE-USSS (A20N)</li>
+                <li>USSS-UUEE (A20N)</li>
+                <li>UUEE-LTAI (A20N)</li>
+                <li>LTAI-UUEE (A20N)</li>
+
+            </ul>
+        </div>
+          <h3>Суббота</h3>
+          <div class="flight-box">
+            <ul>
+                <li>UUEE-URSS (A319)</li>
+                <li>URSS-UUEE (A319)</li>
+                <li>UUEE-LUKK (A20N)</li>
+                <li>LUKK-UUEE (A20N)</li>
+
+            </ul>
+        </div>
+          <h3>Воскресенье</h3>
+        <div class="flight-box">
+            <ul>
+                <li>UWPS-UWPP (C172) - <i>тренировочный</i></li>
+                <li>UWPP-UWPS (C172) - <i>тренировочный</i></li>
+            </ul>
+        </div>
+      </div>
+      <hr>
+      <div id="footer">
+          <h4>Сделано за 10 минут на коленке by <a href="http://github.com/c0defans">c0defans</a></h4>
+      </div>
+</body>
+</html>
